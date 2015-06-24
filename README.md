@@ -5,11 +5,17 @@ Adds try/catch support for Swift.
 
 Simple wrapper built around Objective-C `@try`/`@catch`/`@finally`.
 
+**Note:** This repository was originally forked from [https://github.com/williamFalcon/SwiftTryCatch](https://github.com/williamFalcon/SwiftTryCatch) and updated to work with Swift 2.0, since the original API conflicted with new try/catch keywords introduced by new Swift version.
+
 ##Usage
 
 ### Install via Cocoapods
 
-    pod 'SwiftTryCatch'
+To use this specific repository version of SwiftTryCatch use the following pod definition:
+
+    pod 'SwiftTryCatch', :git => 'https://github.com/ravero/SwiftTryCatch.git'
+
+This will use the podspec from this forked repository with the API signature changes.
 
 ### Create bridging header
 
@@ -20,10 +26,10 @@ Simple wrapper built around Objective-C `@try`/`@catch`/`@finally`.
 
 ### Use
 
-    SwiftTryCatch.try({
+    SwiftTryCatch.tryBlock({
              // try something
-         }, catch: { (error) in
+         }, catchBlock: { (error) in
              println("\(error.description)")
-         }, finally: {
+         }, finallyBlock: {
              // close resources
     })
