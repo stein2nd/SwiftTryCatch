@@ -1,28 +1,18 @@
 SwiftTryCatch
 =============
 
-Adds try/catch support for Swift.
+Adds try/catch for Objective C exceptions in Swift 2.x as a Carthage module.
 
 Simple wrapper built around Objective-C `@try`/`@catch`/`@finally`.
 
-**Note:** This repository was originally forked from [https://github.com/williamFalcon/SwiftTryCatch](https://github.com/williamFalcon/SwiftTryCatch) and updated to work with Swift 2.0, since the original API conflicted with new try/catch keywords introduced by new Swift version.
+_Forked from https://github.com/ravero/SwiftTryCatch and updated to work with Carthage (from CocoaPods). That version was a Swift 2.0 updated version of https://github.com/williamFalcon/SwiftTryCatch._
 
 ##Usage
 
-### Install via Cocoapods
+### Install via Carthage
 
-To use this specific repository version of SwiftTryCatch use the following pod definition:
-
-    pod 'SwiftTryCatch', :git => 'https://github.com/ravero/SwiftTryCatch.git'
-
-This will use the podspec from this forked repository with the API signature changes.
-
-### Create bridging header
-
-- When prompted with "Would you like to configure an Obj-C bridging header?", press "Yes".
-- Go to bridging header and add:
-
-        #import "SwiftTryCatch.h"
+Add this repro to your Cartfile per usual and `carthage update` drag to include, etc.
+(see https://github.com/Carthage/Carthage).
 
 ### Use
 
@@ -33,3 +23,4 @@ This will use the podspec from this forked repository with the API signature cha
          }, finallyBlock: {
              // close resources
     })
+
