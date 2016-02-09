@@ -1,8 +1,8 @@
 //
 //  SwiftTryCatch.h
 //
-//  Created by William Falcon on 10/10/14.
-//  Copyright (c) 2014 William Falcon. All rights reserved.
+//  Created by Yehor Popovych on 02/09/16.
+//  Copyright (c) 2015 Yehor Popovych. All rights reserved.
 //
 /*
  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -25,7 +25,6 @@
  */
 
 #import <Foundation/Foundation.h>
-@import UIKit;
 
 @interface SwiftTryCatch : NSObject
 
@@ -35,4 +34,5 @@
 + (void)tryBlock:(void(^)())tryBlock catchBlock:(void(^)(NSException*exception))catchBlock finallyBlock:(void(^)())finallyBlock;
 + (void)throwString:(NSString*)s;
 + (void)throwException:(NSException*)e;
+
 @end

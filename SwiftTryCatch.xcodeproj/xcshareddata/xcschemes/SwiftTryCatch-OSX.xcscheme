@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EEB306911C319031007F8947"
-               BuildableName = "SwiftTryCatch.framework"
-               BlueprintName = "SwiftTryCatch"
+               BlueprintIdentifier = "96A7511D1C6971CE002D8AC5"
+               BuildableName = "SwiftTryCatch-OSX.framework"
+               BlueprintName = "SwiftTryCatch-OSX"
                ReferencedContainer = "container:SwiftTryCatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EEB306911C319031007F8947"
-            BuildableName = "SwiftTryCatch.framework"
-            BlueprintName = "SwiftTryCatch"
-            ReferencedContainer = "container:SwiftTryCatch.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -54,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EEB306911C319031007F8947"
-            BuildableName = "SwiftTryCatch.framework"
-            BlueprintName = "SwiftTryCatch"
+            BlueprintIdentifier = "96A7511D1C6971CE002D8AC5"
+            BuildableName = "SwiftTryCatch-OSX.framework"
+            BlueprintName = "SwiftTryCatch-OSX"
             ReferencedContainer = "container:SwiftTryCatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EEB306911C319031007F8947"
-            BuildableName = "SwiftTryCatch.framework"
-            BlueprintName = "SwiftTryCatch"
+            BlueprintIdentifier = "96A7511D1C6971CE002D8AC5"
+            BuildableName = "SwiftTryCatch-OSX.framework"
+            BlueprintName = "SwiftTryCatch-OSX"
             ReferencedContainer = "container:SwiftTryCatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

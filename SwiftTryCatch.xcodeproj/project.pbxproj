@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96A751181C6970A0002D8AC5 /* TryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A751171C6970A0002D8AC5 /* TryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96A751211C6971CE002D8AC5 /* SwiftTryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A751201C6971CE002D8AC5 /* SwiftTryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96A751261C697309002D8AC5 /* TryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A751171C6970A0002D8AC5 /* TryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96A751271C697312002D8AC5 /* TryCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB306AC1C31B08C007F8947 /* TryCatch.m */; };
 		EEB306961C319031007F8947 /* SwiftTryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB306951C319031007F8947 /* SwiftTryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEB306AD1C31B08C007F8947 /* SwiftTryCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB306AC1C31B08C007F8947 /* SwiftTryCatch.m */; };
+		EEB306AD1C31B08C007F8947 /* TryCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB306AC1C31B08C007F8947 /* TryCatch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96A751171C6970A0002D8AC5 /* TryCatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TryCatch.h; sourceTree = "<group>"; };
+		96A7511E1C6971CE002D8AC5 /* SwiftTryCatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTryCatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A751201C6971CE002D8AC5 /* SwiftTryCatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftTryCatch.h; sourceTree = "<group>"; };
+		96A751221C6971CE002D8AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEB306921C319031007F8947 /* SwiftTryCatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTryCatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB306951C319031007F8947 /* SwiftTryCatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftTryCatch.h; sourceTree = "<group>"; };
 		EEB306971C319031007F8947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEB306AC1C31B08C007F8947 /* SwiftTryCatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftTryCatch.m; sourceTree = "<group>"; };
+		EEB306AC1C31B08C007F8947 /* TryCatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TryCatch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		96A7511A1C6971CE002D8AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEB3068E1C319031007F8947 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,9 +44,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96A751161C697017002D8AC5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EEB306951C319031007F8947 /* SwiftTryCatch.h */,
+				EEB306971C319031007F8947 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		96A7511F1C6971CE002D8AC5 /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				96A751201C6971CE002D8AC5 /* SwiftTryCatch.h */,
+				96A751221C6971CE002D8AC5 /* Info.plist */,
+			);
+			path = OSX;
+			sourceTree = "<group>";
+		};
 		EEB306881C319031007F8947 = {
 			isa = PBXGroup;
 			children = (
+				96A7511F1C6971CE002D8AC5 /* OSX */,
+				96A751161C697017002D8AC5 /* iOS */,
 				EEB306941C319031007F8947 /* SwiftTryCatch */,
 				EEB306931C319031007F8947 /* Products */,
 			);
@@ -41,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				EEB306921C319031007F8947 /* SwiftTryCatch.framework */,
+				96A7511E1C6971CE002D8AC5 /* SwiftTryCatch.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +84,8 @@
 		EEB306941C319031007F8947 /* SwiftTryCatch */ = {
 			isa = PBXGroup;
 			children = (
-				EEB306971C319031007F8947 /* Info.plist */,
-				EEB306951C319031007F8947 /* SwiftTryCatch.h */,
-				EEB306AC1C31B08C007F8947 /* SwiftTryCatch.m */,
+				96A751171C6970A0002D8AC5 /* TryCatch.h */,
+				EEB306AC1C31B08C007F8947 /* TryCatch.m */,
 			);
 			path = SwiftTryCatch;
 			sourceTree = "<group>";
@@ -58,10 +93,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		96A7511B1C6971CE002D8AC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A751211C6971CE002D8AC5 /* SwiftTryCatch.h in Headers */,
+				96A751261C697309002D8AC5 /* TryCatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEB3068F1C319031007F8947 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A751181C6970A0002D8AC5 /* TryCatch.h in Headers */,
 				EEB306961C319031007F8947 /* SwiftTryCatch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,9 +114,27 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		EEB306911C319031007F8947 /* SwiftTryCatch */ = {
+		96A7511D1C6971CE002D8AC5 /* SwiftTryCatch-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEB306A61C319031007F8947 /* Build configuration list for PBXNativeTarget "SwiftTryCatch" */;
+			buildConfigurationList = 96A751231C6971CE002D8AC5 /* Build configuration list for PBXNativeTarget "SwiftTryCatch-OSX" */;
+			buildPhases = (
+				96A751191C6971CE002D8AC5 /* Sources */,
+				96A7511A1C6971CE002D8AC5 /* Frameworks */,
+				96A7511B1C6971CE002D8AC5 /* Headers */,
+				96A7511C1C6971CE002D8AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftTryCatch-OSX";
+			productName = "SwiftTryCatch-OSX";
+			productReference = 96A7511E1C6971CE002D8AC5 /* SwiftTryCatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEB306911C319031007F8947 /* SwiftTryCatch-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB306A61C319031007F8947 /* Build configuration list for PBXNativeTarget "SwiftTryCatch-iOS" */;
 			buildPhases = (
 				EEB3068D1C319031007F8947 /* Sources */,
 				EEB3068E1C319031007F8947 /* Frameworks */,
@@ -82,7 +145,7 @@
 			);
 			dependencies = (
 			);
-			name = SwiftTryCatch;
+			name = "SwiftTryCatch-iOS";
 			productName = SwiftTryCatch;
 			productReference = EEB306921C319031007F8947 /* SwiftTryCatch.framework */;
 			productType = "com.apple.product-type.framework";
@@ -95,6 +158,9 @@
 			attributes = {
 				LastUpgradeCheck = 0720;
 				TargetAttributes = {
+					96A7511D1C6971CE002D8AC5 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					EEB306911C319031007F8947 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -112,12 +178,20 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EEB306911C319031007F8947 /* SwiftTryCatch */,
+				EEB306911C319031007F8947 /* SwiftTryCatch-iOS */,
+				96A7511D1C6971CE002D8AC5 /* SwiftTryCatch-OSX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		96A7511C1C6971CE002D8AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEB306901C319031007F8947 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,17 +202,68 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		96A751191C6971CE002D8AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A751271C697312002D8AC5 /* TryCatch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEB3068D1C319031007F8947 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEB306AD1C31B08C007F8947 /* SwiftTryCatch.m in Sources */,
+				EEB306AD1C31B08C007F8947 /* TryCatch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		96A751241C6971CE002D8AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = tk.ypopovych.SwiftTryCatch;
+				PRODUCT_NAME = SwiftTryCatch;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96A751251C6971CE002D8AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = tk.ypopovych.SwiftTryCatch;
+				PRODUCT_NAME = SwiftTryCatch;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		EEB306A41C319031007F8947 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -234,11 +359,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftTryCatch/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = williamFalcon.SwiftTryCatch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftTryCatch;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -250,11 +375,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftTryCatch/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = williamFalcon.SwiftTryCatch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftTryCatch;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -262,6 +387,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		96A751231C6971CE002D8AC5 /* Build configuration list for PBXNativeTarget "SwiftTryCatch-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A751241C6971CE002D8AC5 /* Debug */,
+				96A751251C6971CE002D8AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		EEB3068C1C319031007F8947 /* Build configuration list for PBXProject "SwiftTryCatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -271,7 +404,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEB306A61C319031007F8947 /* Build configuration list for PBXNativeTarget "SwiftTryCatch" */ = {
+		EEB306A61C319031007F8947 /* Build configuration list for PBXNativeTarget "SwiftTryCatch-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EEB306A71C319031007F8947 /* Debug */,
