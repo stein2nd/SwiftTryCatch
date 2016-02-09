@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "96A7511D1C6971CE002D8AC5"
-               BuildableName = "SwiftTryCatch-OSX.framework"
+               BuildableName = "SwiftTryCatch.framework"
                BlueprintName = "SwiftTryCatch-OSX"
                ReferencedContainer = "container:SwiftTryCatch.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "96A7511D1C6971CE002D8AC5"
-            BuildableName = "SwiftTryCatch-OSX.framework"
+            BuildableName = "SwiftTryCatch.framework"
             BlueprintName = "SwiftTryCatch-OSX"
             ReferencedContainer = "container:SwiftTryCatch.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "96A7511D1C6971CE002D8AC5"
-            BuildableName = "SwiftTryCatch-OSX.framework"
+            BuildableName = "SwiftTryCatch.framework"
             BlueprintName = "SwiftTryCatch-OSX"
             ReferencedContainer = "container:SwiftTryCatch.xcodeproj">
          </BuildableReference>

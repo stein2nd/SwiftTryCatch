@@ -1,5 +1,5 @@
 //
-//  SwiftTryCatch.h
+//  TryCatch.h
 //
 //  Created by Yehor Popovych on 02/09/16.
 //  Copyright (c) 2015 Yehor Popovych. All rights reserved.
