@@ -24,7 +24,7 @@
  SOFTWARE.
  */
 
-#import <Cocoa/Cocoa.h>
+#import <UIKit/UIKit.h>
 
 //! Project version number for SwiftTryCatch.
 FOUNDATION_EXPORT double SwiftTryCatchVersionNumber;

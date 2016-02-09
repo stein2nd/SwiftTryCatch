@@ -11,6 +11,12 @@
 		96A751211C6971CE002D8AC5 /* SwiftTryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A751201C6971CE002D8AC5 /* SwiftTryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96A751261C697309002D8AC5 /* TryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A751171C6970A0002D8AC5 /* TryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96A751271C697312002D8AC5 /* TryCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB306AC1C31B08C007F8947 /* TryCatch.m */; };
+		96A751331C6977A1002D8AC5 /* SwiftTryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A751321C6977A1002D8AC5 /* SwiftTryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96A751381C697800002D8AC5 /* TryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A751171C6970A0002D8AC5 /* TryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96A751391C697812002D8AC5 /* TryCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB306AC1C31B08C007F8947 /* TryCatch.m */; };
+		96A751421C6978BA002D8AC5 /* SwiftTryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A751411C6978BA002D8AC5 /* SwiftTryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96A751471C6979A0002D8AC5 /* TryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A751171C6970A0002D8AC5 /* TryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96A751481C6979A9002D8AC5 /* TryCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB306AC1C31B08C007F8947 /* TryCatch.m */; };
 		EEB306961C319031007F8947 /* SwiftTryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB306951C319031007F8947 /* SwiftTryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEB306AD1C31B08C007F8947 /* TryCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB306AC1C31B08C007F8947 /* TryCatch.m */; };
 /* End PBXBuildFile section */
@@ -20,6 +26,12 @@
 		96A7511E1C6971CE002D8AC5 /* SwiftTryCatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTryCatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A751201C6971CE002D8AC5 /* SwiftTryCatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftTryCatch.h; sourceTree = "<group>"; };
 		96A751221C6971CE002D8AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A751301C6977A1002D8AC5 /* SwiftTryCatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTryCatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A751321C6977A1002D8AC5 /* SwiftTryCatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftTryCatch.h; sourceTree = "<group>"; };
+		96A751341C6977A1002D8AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A7513F1C6978BA002D8AC5 /* SwiftTryCatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTryCatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A751411C6978BA002D8AC5 /* SwiftTryCatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftTryCatch.h; sourceTree = "<group>"; };
+		96A751431C6978BA002D8AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEB306921C319031007F8947 /* SwiftTryCatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTryCatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB306951C319031007F8947 /* SwiftTryCatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftTryCatch.h; sourceTree = "<group>"; };
 		EEB306971C319031007F8947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -28,6 +40,20 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		96A7511A1C6971CE002D8AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A7512C1C6977A1002D8AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A7513B1C6978BA002D8AC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,12 +88,32 @@
 			path = OSX;
 			sourceTree = "<group>";
 		};
+		96A751311C6977A1002D8AC5 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				96A751321C6977A1002D8AC5 /* SwiftTryCatch.h */,
+				96A751341C6977A1002D8AC5 /* Info.plist */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
+		96A751401C6978BA002D8AC5 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				96A751411C6978BA002D8AC5 /* SwiftTryCatch.h */,
+				96A751431C6978BA002D8AC5 /* Info.plist */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
 		EEB306881C319031007F8947 = {
 			isa = PBXGroup;
 			children = (
 				96A7511F1C6971CE002D8AC5 /* OSX */,
 				96A751161C697017002D8AC5 /* iOS */,
 				EEB306941C319031007F8947 /* SwiftTryCatch */,
+				96A751311C6977A1002D8AC5 /* watchOS */,
+				96A751401C6978BA002D8AC5 /* tvOS */,
 				EEB306931C319031007F8947 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +123,8 @@
 			children = (
 				EEB306921C319031007F8947 /* SwiftTryCatch.framework */,
 				96A7511E1C6971CE002D8AC5 /* SwiftTryCatch.framework */,
+				96A751301C6977A1002D8AC5 /* SwiftTryCatch.framework */,
+				96A7513F1C6978BA002D8AC5 /* SwiftTryCatch.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +147,24 @@
 			files = (
 				96A751211C6971CE002D8AC5 /* SwiftTryCatch.h in Headers */,
 				96A751261C697309002D8AC5 /* TryCatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A7512D1C6977A1002D8AC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A751331C6977A1002D8AC5 /* SwiftTryCatch.h in Headers */,
+				96A751381C697800002D8AC5 /* TryCatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A7513C1C6978BA002D8AC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A751421C6978BA002D8AC5 /* SwiftTryCatch.h in Headers */,
+				96A751471C6979A0002D8AC5 /* TryCatch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +198,42 @@
 			productReference = 96A7511E1C6971CE002D8AC5 /* SwiftTryCatch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		96A7512F1C6977A1002D8AC5 /* SwiftTryCatch-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A751371C6977A1002D8AC5 /* Build configuration list for PBXNativeTarget "SwiftTryCatch-watchOS" */;
+			buildPhases = (
+				96A7512B1C6977A1002D8AC5 /* Sources */,
+				96A7512C1C6977A1002D8AC5 /* Frameworks */,
+				96A7512D1C6977A1002D8AC5 /* Headers */,
+				96A7512E1C6977A1002D8AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftTryCatch-watchOS";
+			productName = "SwiftTryCatch-watchOS";
+			productReference = 96A751301C6977A1002D8AC5 /* SwiftTryCatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96A7513E1C6978BA002D8AC5 /* SwiftTryCatch-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A751441C6978BA002D8AC5 /* Build configuration list for PBXNativeTarget "SwiftTryCatch-tvOS" */;
+			buildPhases = (
+				96A7513A1C6978BA002D8AC5 /* Sources */,
+				96A7513B1C6978BA002D8AC5 /* Frameworks */,
+				96A7513C1C6978BA002D8AC5 /* Headers */,
+				96A7513D1C6978BA002D8AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftTryCatch-tvOS";
+			productName = "SwiftTryCatch-tvOS";
+			productReference = 96A7513F1C6978BA002D8AC5 /* SwiftTryCatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		EEB306911C319031007F8947 /* SwiftTryCatch-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEB306A61C319031007F8947 /* Build configuration list for PBXNativeTarget "SwiftTryCatch-iOS" */;
@@ -161,6 +263,12 @@
 					96A7511D1C6971CE002D8AC5 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					96A7512F1C6977A1002D8AC5 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					96A7513E1C6978BA002D8AC5 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					EEB306911C319031007F8947 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -180,12 +288,28 @@
 			targets = (
 				EEB306911C319031007F8947 /* SwiftTryCatch-iOS */,
 				96A7511D1C6971CE002D8AC5 /* SwiftTryCatch-OSX */,
+				96A7512F1C6977A1002D8AC5 /* SwiftTryCatch-watchOS */,
+				96A7513E1C6978BA002D8AC5 /* SwiftTryCatch-tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		96A7511C1C6971CE002D8AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A7512E1C6977A1002D8AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A7513D1C6978BA002D8AC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,6 +331,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				96A751271C697312002D8AC5 /* TryCatch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A7512B1C6977A1002D8AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A751391C697812002D8AC5 /* TryCatch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A7513A1C6978BA002D8AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A751481C6979A9002D8AC5 /* TryCatch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +401,86 @@
 				PRODUCT_NAME = SwiftTryCatch;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		96A751351C6977A1002D8AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = watchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.ypopovych.SwiftTryCatch;
+				PRODUCT_NAME = SwiftTryCatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		96A751361C6977A1002D8AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = watchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.ypopovych.SwiftTryCatch;
+				PRODUCT_NAME = SwiftTryCatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		96A751451C6978BA002D8AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.ypopovych.SwiftTryCatch;
+				PRODUCT_NAME = SwiftTryCatch;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		96A751461C6978BA002D8AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.ypopovych.SwiftTryCatch;
+				PRODUCT_NAME = SwiftTryCatch;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
@@ -392,6 +612,23 @@
 			buildConfigurations = (
 				96A751241C6971CE002D8AC5 /* Debug */,
 				96A751251C6971CE002D8AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96A751371C6977A1002D8AC5 /* Build configuration list for PBXNativeTarget "SwiftTryCatch-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A751351C6977A1002D8AC5 /* Debug */,
+				96A751361C6977A1002D8AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96A751441C6978BA002D8AC5 /* Build configuration list for PBXNativeTarget "SwiftTryCatch-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A751451C6978BA002D8AC5 /* Debug */,
+				96A751461C6978BA002D8AC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
