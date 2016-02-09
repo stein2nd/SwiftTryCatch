@@ -5,7 +5,7 @@ Adds try/catch for Objective C exceptions in Swift 2.x as a Carthage module.
 
 Simple wrapper built around Objective-C `@try`/`@catch`/`@finally`.
 
-_Forked from https://github.com/ravero/SwiftTryCatch and updated to work with Carthage (from CocoaPods). That version was a Swift 2.0 updated version of https://github.com/williamFalcon/SwiftTryCatch._
+_Forked from https://github.com/ravero/SwiftTryCatch and added OS X target. Initial version is https://github.com/williamFalcon/SwiftTryCatch._
 
 ##Usage
 
