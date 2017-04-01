@@ -70,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92C38C041E901F140078331F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				96A751171C6970A0002D8AC5 /* TryCatch.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		96A751161C697017002D8AC5 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,7 +140,7 @@
 		EEB306941C319031007F8947 /* SwiftTryCatch */ = {
 			isa = PBXGroup;
 			children = (
-				96A751171C6970A0002D8AC5 /* TryCatch.h */,
+				92C38C041E901F140078331F /* include */,
 				EEB306AC1C31B08C007F8947 /* TryCatch.m */,
 			);
 			name = SwiftTryCatch;
