@@ -6,7 +6,7 @@
  - Migrated to SwiftPackageManager 5.2: 2020/07/26
  - Migrate Copyright: © 2020 ISHIKAWA Koutarou. All rights reserved.
  - Original Created: 2014/10/10, William Falcon
- - Original Copyright: © 2014 William Falcon All rights reserved. This software is licensed under the BSD-3-Clause License. Full details can be found in the README.
+ - Original Copyright: © 2014 William Falcon All rights reserved. This software is licensed under the MIT License. Full details can be found in the README.
  */
 @interface SwiftTryCatch : NSObject
 
