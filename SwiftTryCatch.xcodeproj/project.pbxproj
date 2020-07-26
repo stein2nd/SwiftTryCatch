@@ -33,7 +33,7 @@
 		B453C1E624CD8DAF00821F51 /* TryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = B453C0F324CD441D00821F51 /* TryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B453C1E724CD8DB000821F51 /* TryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = B453C0F324CD441D00821F51 /* TryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B453C1E824CD8DB200821F51 /* TryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = B453C0F324CD441D00821F51 /* TryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B453C1EB24CD93FA00821F51 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		B453C1F924CDEACB00821F51 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_40 /* SwiftTryCatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SwiftTryCatchTests.swift */; };
 		OBJ_41 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
 /* End PBXBuildFile section */
@@ -470,7 +470,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B453C1EB24CD93FA00821F51 /* Package.swift in Sources */,
 				B453C1E124CD8D7900821F51 /* TryCatch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				B453C1F924CDEACB00821F51 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
